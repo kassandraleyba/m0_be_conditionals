@@ -22,24 +22,31 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # this should print: "Is numberTeachers greater than numberStudents?" false
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
+puts "Is numberTeachers less than numberStudents?", number_teachers < number_students
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
+puts "Is numberTeachers equal to stringTeachers?", number_teachers == string_teachers
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
+puts "Is numberTeachers not equal to numberStudents?", number_teachers != number_students
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
+puts "Is numberStudents greater than or equal to 20?", number_students >= 20
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
+puts "Is numberStudents greater than or equal to 21?", number_students >= 21
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
+puts "Is numberStudents less than or equal to 20?", number_students <= 20
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
+puts "Is numberStudents less than or equal to 21?", number_students <= 21
 # this should print: true
 
 
@@ -53,21 +60,26 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+#YOU DO: The number 4 is less than 9.
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# YOU DO: The first line of code declares a variable named books and assigns it to the integer 3.
+# The number 4 is greater than the number of books.
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# YOU DO: The first line of code declares a variable named friends and assigns it to the integer 6.
+# The second line of code declares a variable named siblings and assigns it to the integer 2. 
+#The number of friends is greater than the number of siblings.
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+# YOU DO: The first line of code declares a variable named attendees and assigns it to the integer 9.
+# The second line of code declares a variable named meals and assigns it to the integer 8.
+# The number of attendees does not equal the number of meals.
 
 
 #-------------------
@@ -90,15 +102,16 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+loves_to_play && loves_treats, true
 
 # Determine if the dog loves to play and loves the dog park
-
+loves_to_play && loves_dog_park, false
 
 # Determine if the dog loves to play or loves the dog park
-
+loves_to_play || loves_dog_park, true
 
 # Determine if the dog loves to play and is a puppy
+loves_to_play && ???
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: I don't have a variable assigned to puppy. 
