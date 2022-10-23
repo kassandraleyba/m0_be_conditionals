@@ -41,9 +41,9 @@ end
 # Experiment with manipulating the value held within num_quarters
 # to make sure both conditions can be achieved.
 
-num_quarters = 2
+num_quarters = 1
 
-if num_quarters == 2
+if num_quarters >= 2
   p "I have enough money for a gumball"
 else
   p "I don't have enough money for a gumball"
@@ -65,10 +65,10 @@ end
 # to make sure all above conditions output what you expect.
 
 cups_of_flour = 3
-has_sauce = false
+has_sauce = true
 
-if cups_of_flour < 2 || has_sauce == false
-  p "I cannot make pizza"
-else cups_of_flour > 2 && has_sauce == true 
-  p "I can make pizza"
+if cups_of_flour >= 2 && has_sauce == true 
+  p "I can make pizza."
+else 
+  p "I cannot make a pizza."
 end
